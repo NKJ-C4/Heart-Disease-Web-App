@@ -13,14 +13,12 @@ body {
     }
     100% {
         opacity: 1;
-     }
+    }
 }
 
 a {
     text-decoration: none;
 }
-
-
 
 nav {
     top: 0;
@@ -37,15 +35,18 @@ nav {
     background-color: #8455ab;
     color: white;
 }
-.act:hover{
+
+.act:hover {
     background-color: #8455ab;
     color: white;
 }
-.titl{
+
+.titl {
     font-size: 20px;
 }
 
 a.menu {
+    color: black !important;
     padding: 15px;
     text-decoration: none;
 }
@@ -65,4 +66,35 @@ footer {
     /* Height of the footer*/
     padding: 10px;
     background-color: white;
+}
+
+@media only screen and (max-width: 1269px) {
+    body{
+        background-color: white;
+    }
+    nav {
+        flex-direction: column;
+        position:absolute;
+        width: 90%;
+        margin-left: 40px;
+        background-color: rgb(235, 235, 235);
+        box-shadow: none;
+        border-bottom: none;
+    }
+
+    .titl, .menu{
+        font-size: 3rem;
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+        padding-left: 50px !important;
+    }
+    .act{
+        background-color: white;
+        border-left: 15px solid #8455ab;
+    }
+    footer{
+        max-width: unset;
+    }
+
+    
 }
