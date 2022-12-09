@@ -1,4 +1,4 @@
-certifi==2021.5.30
+certifi==2022.12.7
 click==8.0.1
 cycler==0.10.0
 dominate==2.6.0
