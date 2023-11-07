@@ -39,7 +39,8 @@ You can check it out by clicking on the link [here](https://www.kaggle.com/ronit
 
 ## 🌐 Deployment
 
-We've used **Heroku** as our preferred platform to deploy our web application.
+We've used **Heroku** as our preferred platform to deploy our web application in **2021**.
+**Update**: The hosting platform has been updated to **Render**.
 
   ## 🎨 Color Reference
 
